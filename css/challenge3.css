@@ -1,0 +1,94 @@
+/* --------- fonts ---------- */
+@import url("https://fonts.google.com/specimen/Kumbh+Sans");
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Kumbh Sans" , sans-serif;
+    font-size: 18px;
+    color: hsl(0, 0%, 17%);
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    width:100vw;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.profile-card-container{
+    width: 22.80%;
+    background-color: white;
+    border-radius: 18px;
+    text-align: center;
+    position:fixed;
+/* ************************************background image in top of card************* */
+}
+.profile-bg img{
+    background-size: cover;
+    width: 100%;
+    border-radius: 18px 18px 0 0 ;
+}
+/* *******************************user image /name /age /city***************** */
+.user img{
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: -55px auto 20px;
+    width: 30.1%;
+}
+.user h2{
+    margin-bottom: 10px;
+}
+.user span{
+    color: rgba(48, 48, 48, 0.808);
+    font-weight: 100;
+    padding-left: 5px;
+}
+.user p{
+    color: rgba(48, 48, 48, 0.808);
+    font-size: 0.8em;
+    margin-bottom: 25px;
+}
+/* *********************************footer cart********************* */
+.cart-footer h4 , .user h2{
+    font-size: 1em;
+}
+.cart-footer{
+    border-top: 0.75px solid hsla(0, 0%, 59%, 0.438);
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 20px;
+}
+.followers , .likes , .photos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cart-footer p{
+    color: rgba(48, 48, 48, 0.719);
+    font-size: 0.55em;
+    letter-spacing: 0.1em;
+    margin-top: 3px;
+}
+/* ************************************two circle in background******************** */
+.bg-circle img{
+    position: fixed;
+    width:60vw;
+}
+.top-circle{
+    top: -63%;
+    left: -12%;
+}
+.bottom-circle{
+    bottom: -77%;
+    right: -10%;
+}
