@@ -24,7 +24,7 @@ main{
     overflow: hidden;
 }
 .profile-card-container{
-    width: 22.80%;
+    width: 25%;
     background-color: white;
     border-radius: 18px;
     text-align: center;
@@ -91,4 +91,21 @@ main{
 .bottom-circle{
     bottom: -77%;
     right: -10%;
+}
+/* ---------------------------phone size--------------- */
+@media only screen and (max-width:850px) {
+    body{
+        min-width: 300px;
+    }
+    .profile-card-container{
+        width:290px;
+    }
+    .top-circle{
+        top: -15%;
+        left: -20%;
+    }
+    .bottom-circle{
+        bottom: -15%;
+        right: -20%;
+    }
 }
